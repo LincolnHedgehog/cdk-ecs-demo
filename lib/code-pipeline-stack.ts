@@ -22,7 +22,7 @@ export class CodePipelineStack extends cdk.Stack {
     const sourceOutput = new codepipeline.Artifact();
     const sourceAction = new codepipeline_actions.GitHubSourceAction({
       actionName: 'GitHub',
-      owner: 'rix0rrr',
+      owner: 'LincolnHedgehog',
       repo: 'cdk-ecs-demo',
       oauthToken: cdk.SecretValue.secretsManager('my-github-token'),
       output: sourceOutput,

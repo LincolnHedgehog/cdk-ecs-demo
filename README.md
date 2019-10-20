@@ -4,7 +4,8 @@ This repository shows how an asset-based ECS application written in CDK can be
 deployed, both directly from your developer desktop for testing as well as
 automatically using a pipeline in production.
 
-Demo written against CDK **0.31.0**.
+*** 2019/10/20 change version **   (Demo written against CDK **0.31.0**.) 
+And Demo written against REGION Frankfurt (eu-central-1).
 
 ## Explanation
 
